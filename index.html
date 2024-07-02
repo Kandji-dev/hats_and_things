@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Let's build a wishlist!</title>
+    <link href="assets/stylesheets/bootstrap.css" rel="stylesheet" />
+    <link href="assets/stylesheets/bootstrap-grid.css" rel="stylesheet" />
+    <link href="assets/stylesheets/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="assets/stylesheets/products.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">The Accessory Wishlist</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <button class="nav-link btn btn-outline-secondary mr-3">hats</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link btn btn-outline-secondary mr-3">socks</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link btn btn-outline-secondary mr-3">sunglasses</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link btn btn-outline-secondary mr-3">gloves</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link btn btn-outline-secondary mr-3">affiche tous</button>
+            </li>
+          </ul>
+          <a class="btn btn-primary" href="./wishlist.html">See wishlist...</a>
+        </div>
+      </nav>
+    </div>
+
+    <div id="filters" class="container text-center p-3">
+      <p class="align-middle m-0">Filter products by colour:</p>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-outline-secondary">red</button>
+        <button type="button" class="btn btn-outline-secondary">blue</button>
+        <button type="button" class="btn btn-outline-secondary">green</button>
+        <button type="button" class="btn btn-outline-secondary">yellow</button>
+        <button type="button" class="btn btn-outline-secondary">all</button>
+      </div>
+    </div>
+
+    <div class="container container2">
+      <div id="products" class="row">
+
+      <footer class="bg-secondary text-light">
+        <div class="row p-3 pt-5">
+          <div class="col-sm-6">
+            <p>
+              This is a simple clothing accessories wishlist, and consists of
+              two pages.  This page is for finding and adding up to three
+              accessories to your wishlist.
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p>
+              The second page displays up to three selected accessories. They
+              can be viewed, removed from your wishlist, and a total price will
+              be calculated.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="assets/javascripts/products.js"> </script>
+  </body>
+</html>
